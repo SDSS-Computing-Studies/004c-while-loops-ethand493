@@ -30,4 +30,3 @@ while username != "admin" and password != "12345":
             password = ""
         else:
             print("Access granted")
-    
