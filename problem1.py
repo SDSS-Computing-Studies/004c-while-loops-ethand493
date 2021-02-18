@@ -26,7 +26,7 @@ count = 0
 while username != "admin" and password != "12345" and count < 3:
     username = input("Enter your username.")
     password = input("Enter your password.")
-    if username != "admin" and username != "12345":
+    if username != "admin" and password != "12345":
         print("Access denied")
         count = count + 1
     else:
