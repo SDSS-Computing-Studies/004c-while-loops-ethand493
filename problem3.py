@@ -22,3 +22,5 @@ while newnumber < 100:
     newnumber = newnumber + addvar
     addvar = oldnumber
     print(str(oldnumber), end=" ")
+    if newnumber > 100:
+        print("144", end=" ")
