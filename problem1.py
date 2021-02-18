@@ -35,4 +35,3 @@ while username != "admin" and password != "12345" and count < 3:
             count = count + 1
         else:
             print("Access granted")
-    
